@@ -5,6 +5,16 @@ class IndexController extends Controller {
     public function index(){
         $title ='首页';
         $this->assign('title',$title);
+
+        $test = 20;
+        $test1 = 21;
+
+        $name = 2;
+        $this->assign('name', $name);
+        $this->assign('test', $test);
+        $this -> assign('test1', $test1);
+
+
         $this -> display();
     }
 

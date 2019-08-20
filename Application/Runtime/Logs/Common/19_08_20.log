@@ -1,0 +1,84 @@
+[ 2019-08-20T15:03:18+08:00 ] ::1 /bkWEB/APP_NAME/Home/bkWEB/Public/assets/css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2019-08-20T15:03:18+08:00 ] ::1 /bkWEB/APP_NAME/Home/bkWEB/Public/assets/images/web.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2019-08-20T15:03:19+08:00 ] ::1 /bkWEB/APP_NAME/Home/bkWEB/Public/assets/css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2019-08-20T15:04:05+08:00 ] ::1 /bkWEB/bkWEB/Public/assets/css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+ERR: 无法加载模块:BkWEB
+
+[ 2019-08-20T15:04:05+08:00 ] ::1 /bkWEB/bkWEB/Public/assets/images/web.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+ERR: 无法加载模块:BkWEB
+
+[ 2019-08-20T15:04:06+08:00 ] ::1 /bkWEB/bkWEB/Public/assets/css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+ERR: 无法加载模块:BkWEB
+
+[ 2019-08-20T15:04:08+08:00 ] ::1 /bkWEB/bkWEB/Public/assets/css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+ERR: 无法加载模块:BkWEB
+
+[ 2019-08-20T15:04:09+08:00 ] ::1 /bkWEB/bkWEB/Public/assets/css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+ERR: 无法加载模块:BkWEB
+
+[ 2019-08-20T17:13:41+08:00 ] ::1 /bkWEB/__PUBLIC__//assets/css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+ERR: 无法加载模块:__PUBLIC__
+
+[ 2019-08-20T17:13:41+08:00 ] ::1 /bkWEB/__PUBLIC__//assets/images/web.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+ERR: 无法加载模块:__PUBLIC__
+
+[ 2019-08-20T17:13:41+08:00 ] ::1 /bkWEB/__PUBLIC__//assets/css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+ERR: 无法加载模块:__PUBLIC__
+
+[ 2019-08-20T17:13:42+08:00 ] ::1 /bkWEB/__PUBLIC__//assets/css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+ERR: 无法加载模块:__PUBLIC__
+
+[ 2019-08-20T17:13:42+08:00 ] ::1 /bkWEB/__PUBLIC__//assets/css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+ERR: 无法加载模块:__PUBLIC__
+
+[ 2019-08-20T17:13:42+08:00 ] ::1 /bkWEB/__PUBLIC__//assets/css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+ERR: 无法加载模块:__PUBLIC__
+
