@@ -21,7 +21,7 @@
 } */
 
 
-var mobileAgent = new Array("iphone", "ipod", "ipad", "android", "mobile", "blackberry", "webos", "incognito", "webmate", "bada", "nokia", "lg", "ucweb", "skyfire");
+/* var mobileAgent = new Array("iphone", "ipod", "ipad", "android", "mobile", "blackberry", "webos", "incognito", "webmate", "bada", "nokia", "lg", "ucweb", "skyfire");
 var browser = navigator.userAgent.toLowerCase();
 var isMobile = false;
 for (var i = 0; i < mobileAgent.length; i++) {
@@ -34,4 +34,11 @@ for (var i = 0; i < mobileAgent.length; i++) {
     }else{
         // alert('pc')
     }
-}
+} */
+
+
+//other页面
+$('.J-item li').click(function() {
+    $(this).addClass('act').siblings().removeClass('act');
+    $('.J-cont').find('div').eq($(this).index()).show().siblings().hide();
+});

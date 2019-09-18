@@ -19,55 +19,158 @@ a{
 /* 以上为公共样式 */
 
 body{
+    font-family: '微软雅黑';
     nav{
-        width: 100%;
-        height: 50px;
-        line-height: 50px;
-        background: #444;
-        ul{
-            width: 60%;
+        width: 17%;
+        height: 100%;
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 9999;
+        h1{
+            font-size: 30px;
+            font-weight: normal;
+            color: #464646;
+            margin-left: 15%;
+            margin-top: 50px;
+        }/* 
+        img{
+            display: block;
+            width: 76%;
             margin: 0 auto;
+            margin-top: 40px;
+        } */
+        ul{
+            margin-top: 30px;
             li{
-                float: left;
                 a{
                     display: block;
                     height: 50px;
                     line-height: 50px;
                     box-sizing: border-box;
                     font-size: 16px;
-                    color: #fff;
-                    opacity: 0.6;
-                    padding: 0 30px;
+                    color: #636363;
+                    margin: 0 16%;
                     &:hover{
-                        opacity: 1;
-                        color: #fff;
-                        border-bottom: 3px solid #fff;
+                        color: #bbb;
+                    }
+                }
+            }
+        }
+        p{
+            font-size: 12px;
+            color: #bbb;
+            margin: 0 7%;
+            position: absolute;
+            bottom: 10px;
+            text-align: justify;
+            text-justify: distribute-all-lines; // 这行必加，兼容ie浏览器
+        }
+    }
+    .home-wrap, .resume-wrap, .skill-wrap, .other-wrap{
+        float: right;
+        width: 83%;
+        .bread-nav{
+            font-size: 14px;
+            margin-top: 25px;
+            a{
+                color: #999;
+                margin-right: 3px;
+                &:after{
+                    content: '>';
+                    padding-left: 5px;
+                }
+                &:last-child:after{
+                    content: '';
+                }
+            }
+        }
+    }
+    //首页样式
+    .home-wrap{
+        .content-list{
+            margin: 30px 50px;
+            padding: 20px 0;
+            border-bottom: 1px solid #e5e5e5;
+            .img-box{
+                float: left;
+                width: 20%;
+                background: #ededed;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            div{
+                float: left;
+                width: 80%;
+                p{
+                    padding: 0 20px;
+                    &.title{
+                        font-size: 24px;
+                        a{
+                            color: #555;
+                            &:hover{
+                                color: #333;
+                            }
+                        }
+                    }
+                    &.detail{
+                        margin-top: 5px;
+                        span, a{
+                            font-size: 14px;
+                            color: #999;
+                            margin-right: 15px;
+                        }
+                        a:hover{
+                            color: #f00;
+                        }
+                    }
+                    &.cont{
+                        font-size: 16px;
+                        color: #999;
+                        margin-top: 10px;
                     }
                 }
             }
         }
     }
-    
-}
-
-body.home nav ul li a.home, body.about nav ul li a.about, body.other nav ul li a.other, body.person nav ul li a.person{
-    opacity: 1;
-    color: #fff;
-    border-bottom: 3px solid #fff;
-}
-
-body.home{
-    .home-form{
-        input{
-            display: block;
-            margin: 0 auto;
-            margin-top: 20px;
-            width: 60%;
-            height: 45px;
-            border: 1px solid #ccc;
-            border-radius: 6px;
-            outline: none;
+    //other页面样式
+    .other-wrap{
+        ul{
+            background: #f5f5f5;
+            padding: 40px 0;
+            font-size: 0;
             text-align: center;
+            li{
+                display: inline-block;
+                padding: 0 30px;
+                font-size: 16px;
+                color: #636363;
+                cursor: pointer;
+                &.act{
+                    font-weight: 900;
+                }
+            }
+        }
+        .other-cont{
+            width: 40%;
+            margin: 0 auto;
+            .cont-box{
+                display: none;
+                &:first-child{
+                    display: block;
+                }
+                p{
+                    border: 1px solid #eee;
+                    border-radius: 6px;
+                    padding: 15px;
+                    margin-top: 25px;
+                }
+            }
         }
     }
+}
+body.home nav ul li a.home, body.skill nav ul li a.skill, body.other nav ul li a.other, body.resume nav ul li a.resume{
+    color: #bbb;
 }

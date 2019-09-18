@@ -41,18 +41,33 @@ a {
   clear: both;
 }
 /* 以上为公共样式 */
+body {
+  font-family: '微软雅黑';
+}
 body nav {
-  width: 100%;
-  height: 50px;
-  line-height: 50px;
-  background: #444;
+  width: 17%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  /* 
+        img{
+            display: block;
+            width: 76%;
+            margin: 0 auto;
+            margin-top: 40px;
+        } */
+}
+body nav h1 {
+  font-size: 30px;
+  font-weight: normal;
+  color: #464646;
+  margin-left: 15%;
+  margin-top: 50px;
 }
 body nav ul {
-  width: 60%;
-  margin: 0 auto;
-}
-body nav ul li {
-  float: left;
+  margin-top: 30px;
 }
 body nav ul li a {
   display: block;
@@ -60,31 +75,137 @@ body nav ul li a {
   line-height: 50px;
   box-sizing: border-box;
   font-size: 16px;
-  color: #fff;
-  opacity: 0.6;
-  padding: 0 30px;
+  color: #636363;
+  margin: 0 16%;
 }
 body nav ul li a:hover {
-  opacity: 1;
-  color: #fff;
-  border-bottom: 3px solid #fff;
+  color: #bbb;
+}
+body nav p {
+  font-size: 12px;
+  color: #bbb;
+  margin: 0 7%;
+  position: absolute;
+  bottom: 10px;
+  text-align: justify;
+  text-justify: distribute-all-lines;
+}
+body .home-wrap,
+body .resume-wrap,
+body .skill-wrap,
+body .other-wrap {
+  float: right;
+  width: 83%;
+}
+body .home-wrap .bread-nav,
+body .resume-wrap .bread-nav,
+body .skill-wrap .bread-nav,
+body .other-wrap .bread-nav {
+  font-size: 14px;
+  margin-top: 25px;
+}
+body .home-wrap .bread-nav a,
+body .resume-wrap .bread-nav a,
+body .skill-wrap .bread-nav a,
+body .other-wrap .bread-nav a {
+  color: #999;
+  margin-right: 3px;
+}
+body .home-wrap .bread-nav a:after,
+body .resume-wrap .bread-nav a:after,
+body .skill-wrap .bread-nav a:after,
+body .other-wrap .bread-nav a:after {
+  content: '>';
+  padding-left: 5px;
+}
+body .home-wrap .bread-nav a:last-child:after,
+body .resume-wrap .bread-nav a:last-child:after,
+body .skill-wrap .bread-nav a:last-child:after,
+body .other-wrap .bread-nav a:last-child:after {
+  content: '';
+}
+body .home-wrap .content-list {
+  margin: 30px 50px;
+  padding: 20px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+body .home-wrap .content-list .img-box {
+  float: left;
+  width: 20%;
+  background: #ededed;
+}
+body .home-wrap .content-list .img-box img {
+  width: 100%;
+  height: 100%;
+}
+body .home-wrap .content-list div {
+  float: left;
+  width: 80%;
+}
+body .home-wrap .content-list div p {
+  padding: 0 20px;
+}
+body .home-wrap .content-list div p.title {
+  font-size: 24px;
+}
+body .home-wrap .content-list div p.title a {
+  color: #555;
+}
+body .home-wrap .content-list div p.title a:hover {
+  color: #333;
+}
+body .home-wrap .content-list div p.detail {
+  margin-top: 5px;
+}
+body .home-wrap .content-list div p.detail span,
+body .home-wrap .content-list div p.detail a {
+  font-size: 14px;
+  color: #999;
+  margin-right: 15px;
+}
+body .home-wrap .content-list div p.detail a:hover {
+  color: #f00;
+}
+body .home-wrap .content-list div p.cont {
+  font-size: 16px;
+  color: #999;
+  margin-top: 10px;
+}
+body .other-wrap ul {
+  background: #f5f5f5;
+  padding: 40px 0;
+  font-size: 0;
+  text-align: center;
+}
+body .other-wrap ul li {
+  display: inline-block;
+  padding: 0 30px;
+  font-size: 16px;
+  color: #636363;
+  cursor: pointer;
+}
+body .other-wrap ul li.act {
+  font-weight: 900;
+}
+body .other-wrap .other-cont {
+  width: 40%;
+  margin: 0 auto;
+}
+body .other-wrap .other-cont .cont-box {
+  display: none;
+}
+body .other-wrap .other-cont .cont-box:first-child {
+  display: block;
+}
+body .other-wrap .other-cont .cont-box p {
+  border: 1px solid #eee;
+  border-radius: 6px;
+  padding: 15px;
+  margin-top: 25px;
 }
 body.home nav ul li a.home,
-body.about nav ul li a.about,
+body.skill nav ul li a.skill,
 body.other nav ul li a.other,
-body.person nav ul li a.person {
-  opacity: 1;
-  color: #fff;
-  border-bottom: 3px solid #fff;
-}
-body.home .home-form input {
-  display: block;
-  margin: 0 auto;
-  margin-top: 20px;
-  width: 60%;
-  height: 45px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  outline: none;
-  text-align: center;
+body.resume nav ul li a.resume {
+  color: #bbb;
 }
