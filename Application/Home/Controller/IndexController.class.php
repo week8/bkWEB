@@ -8,9 +8,14 @@ class IndexController extends Controller {
         $this->assign('title',$title);
         $this->assign('motto',$motto);
 
+        $User = M('Home','think_','mysql://root@localhost/thinkphp#utf8');  //Home：模块   think_：thinkphp数据库think_开头的表   thinkphp：数据库
+        $list = $User->select();
+        $this->assign('list',$list);
+
         $this -> display();
     }
 
+    /* *********************************************************************  skill start  ******************************************************************* */
     public function skill(){
         $title ='SKILL';
         $motto = '无论知识有多新，项目有多难，只要来了什么姿势都要上';
@@ -19,6 +24,15 @@ class IndexController extends Controller {
 
         $this -> display();
     }
+    public function cssCollection(){
+        $t ='SKILL > CSS';
+        $motto = '浅喜似苍狗，深爱如长风';
+        $this->assign('title',$t);
+        $this->assign('motto',$motto);
+
+        $this -> display();
+    }
+    /* *********************************************************************  skill end  ******************************************************************* */
 
     public function resume(){
         $title ='RESUME';
@@ -37,4 +51,5 @@ class IndexController extends Controller {
 
         $this -> display();
     }
+
 }

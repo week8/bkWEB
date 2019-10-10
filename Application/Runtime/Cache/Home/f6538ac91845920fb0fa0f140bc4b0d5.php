@@ -9,7 +9,7 @@
     <title><?php echo ($title); ?></title>
 </head>
 
-<body class="other">
+<body class="skill">
     <nav>
     <!-- <img src="/bkWEB/Public/assets/images/logo0918.jpg" alt=""> -->
     <h1>WEB <br> DEVELOPER</h1>
@@ -30,27 +30,17 @@
         <li><a class="other" href="<?php echo U('Home/Index/other');?>">OTHER</a></li>
     </ul>
 </div>
-    <section class="other-wrap">
-        <ul class="J-item">
-            <li class="act">爪迹</li>
-            <li>鸡汤</li>
-        </ul>
+    <section class="skill-wrap">
         <p class="bread-nav">
-            <a href="">HOME</a><a href="">OTHER</a>
+            <a href="">HOME</a><a href="">SKILL</a><a href="">CSS</a>
         </p>
-        <div class="other-cont J-cont">
-            <div class="cont-box">
-                <p>2019.09.18 开始改页面布局,改响应</p>
-                <p>2019.09.19 修改页面.今天有个同事跟我说,写代码得本着自己看得懂,别人看得懂,以后好维护的原则去写,就像自己写的代码装着自己的成就感一样</p>
-            </div>
-            <div class="cont-box">
-                <p>遇见最好的自己，然后狠狠拥抱你</p>
-                <p>希望你可以努力到做任何事情都可以游刃有余</p>
-                <p>运气也是实力的一部分</p>
-                <p>愿你此生尽幸，赤诚善良；愿你所有快乐，无需假装</p>
-                <p>你总是这样轻言放弃的话  无论过多久都只会原地踏步  -- 哆啦A梦</p>
-                <p>无论知识有多新，项目有多难，只要来了什么姿势都要上</p>
-                <p>你说前半生就这样吧，还有明天</p>
+        <div class="content-wrap">
+            <p class="cw-title">css同时设置文字的描边和阴影</p>
+            <div class="result-show">浅喜似苍狗，深爱如长风</div>
+            <div class="code-show">
+                <p class="c-wrap">.result-show{</p>
+                <b class="c-cont">text-shadow: 3px 0px 0px #ddd, -3px 0px 0px #ddd, 0px 3px 0px #ddd, 0px -3px 0px #ddd, 0px 6px 2px #636363;</b>
+                <p class="c-wrap">}</p> 
             </div>
         </div>
     </section>

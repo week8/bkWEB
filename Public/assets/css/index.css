@@ -60,10 +60,9 @@ body nav {
         } */
 }
 body nav h1 {
-  font-size: 30px;
   font-weight: normal;
   color: #464646;
-  margin-left: 15%;
+  margin-left: 13%;
   margin-top: 50px;
 }
 body nav ul {
@@ -76,7 +75,7 @@ body nav ul li a {
   box-sizing: border-box;
   font-size: 16px;
   color: #636363;
-  margin: 0 16%;
+  margin: 0 14%;
 }
 body nav ul li a:hover {
   color: #bbb;
@@ -89,6 +88,36 @@ body nav p {
   bottom: 10px;
   text-align: justify;
   text-justify: distribute-all-lines;
+}
+body .m-header {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  z-index: 9999;
+}
+body .m-header h1 {
+  font-size: 1.6rem;
+  color: #636363;
+  height: 4.5rem;
+  line-height: 4.5rem;
+  padding-left: 5%;
+}
+body .m-header ul {
+  height: 2.1rem;
+  line-height: 2.1rem;
+  background: #bbb;
+}
+body .m-header ul li {
+  float: left;
+}
+body .m-header ul li a {
+  font-size: 0.8rem;
+  color: #fff;
+  padding-left: 1.2rem;
+  position: relative;
 }
 body .home-wrap,
 body .resume-wrap,
@@ -124,56 +153,110 @@ body .skill-wrap .bread-nav a:last-child:after,
 body .other-wrap .bread-nav a:last-child:after {
   content: '';
 }
-body .home-wrap .content-list {
+body .home-wrap .content-list,
+body .skill-wrap .tab-cont .content-list {
   margin: 30px 50px;
   padding: 20px 0;
   border-bottom: 1px solid #e5e5e5;
 }
-body .home-wrap .content-list .img-box {
+body .home-wrap .content-list .img-box,
+body .skill-wrap .tab-cont .content-list .img-box {
   float: left;
   width: 20%;
   background: #ededed;
 }
-body .home-wrap .content-list .img-box img {
+body .home-wrap .content-list .img-box img,
+body .skill-wrap .tab-cont .content-list .img-box img {
   width: 100%;
   height: 100%;
 }
-body .home-wrap .content-list div {
+body .home-wrap .content-list div,
+body .skill-wrap .tab-cont .content-list div {
   float: left;
   width: 80%;
 }
-body .home-wrap .content-list div p {
-  padding: 0 20px;
+body .home-wrap .content-list div p,
+body .skill-wrap .tab-cont .content-list div p {
+  padding: 0 0 0 20px;
 }
-body .home-wrap .content-list div p.title {
-  font-size: 24px;
+body .home-wrap .content-list div p.title,
+body .skill-wrap .tab-cont .content-list div p.title {
+  font-size: 1.5rem;
 }
-body .home-wrap .content-list div p.title a {
+body .home-wrap .content-list div p.title a,
+body .skill-wrap .tab-cont .content-list div p.title a {
   color: #555;
 }
-body .home-wrap .content-list div p.title a:hover {
+body .home-wrap .content-list div p.title a:hover,
+body .skill-wrap .tab-cont .content-list div p.title a:hover {
   color: #333;
 }
-body .home-wrap .content-list div p.detail {
+body .home-wrap .content-list div p.detail,
+body .skill-wrap .tab-cont .content-list div p.detail {
   margin-top: 5px;
 }
 body .home-wrap .content-list div p.detail span,
-body .home-wrap .content-list div p.detail a {
-  font-size: 14px;
+body .skill-wrap .tab-cont .content-list div p.detail span,
+body .home-wrap .content-list div p.detail a,
+body .skill-wrap .tab-cont .content-list div p.detail a {
+  font-size: .875rem;
   color: #999;
   margin-right: 15px;
 }
-body .home-wrap .content-list div p.detail a:hover {
+body .home-wrap .content-list div p.detail a:hover,
+body .skill-wrap .tab-cont .content-list div p.detail a:hover {
   color: #f00;
 }
-body .home-wrap .content-list div p.cont {
-  font-size: 16px;
+body .home-wrap .content-list div p.cont,
+body .skill-wrap .tab-cont .content-list div p.cont {
+  font-size: 1rem;
   color: #999;
   margin-top: 10px;
 }
+body .skill-wrap .tab-item {
+  margin-top: 20px;
+}
+body .skill-wrap .tab-item li {
+  float: left;
+  padding-right: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #636363;
+}
+body .skill-wrap .tab-item li:hover,
+body .skill-wrap .tab-item li.act {
+  color: #bbb;
+}
+body .skill-wrap .content-wrap {
+  width: 80%;
+  margin-top: 30px;
+}
+body .skill-wrap .content-wrap .cw-title {
+  font-size: 16px;
+  color: #636363;
+}
+body .skill-wrap .content-wrap .result-show {
+  padding: 2% 0;
+  font-size: 30px;
+  font-weight: 900;
+  color: #f00;
+  text-shadow: 3px 0px 0px #ddd, -3px 0px 0px #ddd, 0px 3px 0px #ddd, 0px -3px 0px #ddd, 0px 6px 2px #636363;
+}
+body .skill-wrap .content-wrap .code-show {
+  padding: 2% 0;
+  background: #eee;
+  font-size: 16px;
+  color: #636363;
+}
+body .skill-wrap .content-wrap .code-show .c-wrap {
+  padding-left: 2em;
+}
+body .skill-wrap .content-wrap .code-show .c-cont {
+  padding-left: 4em;
+}
 body .other-wrap ul {
   background: #f5f5f5;
-  padding: 40px 0;
+  padding: 3% 0;
   font-size: 0;
   text-align: center;
 }
@@ -188,8 +271,7 @@ body .other-wrap ul li.act {
   font-weight: 900;
 }
 body .other-wrap .other-cont {
-  width: 40%;
-  margin: 0 auto;
+  text-align: center;
 }
 body .other-wrap .other-cont .cont-box {
   display: none;
@@ -198,14 +280,85 @@ body .other-wrap .other-cont .cont-box:first-child {
   display: block;
 }
 body .other-wrap .other-cont .cont-box p {
-  border: 1px solid #eee;
-  border-radius: 6px;
-  padding: 15px;
+  font-size: 15px;
+  color: #bbb;
+  padding: 1% 20%;
   margin-top: 25px;
+}
+@media screen and (max-width: 960px) {
+  body nav {
+    display: none;
+  }
+  body .m-header {
+    display: block;
+  }
+  body .home-wrap,
+  body .resume-wrap,
+  body .skill-wrap,
+  body .other-wrap {
+    width: 100%;
+    margin-top: 6.6rem;
+  }
+  body .home-wrap .bread-nav,
+  body .resume-wrap .bread-nav,
+  body .skill-wrap .bread-nav,
+  body .other-wrap .bread-nav {
+    display: none;
+  }
+  body .home-wrap .content-list,
+  body .skill-wrap .tab-cont .content-list {
+    margin: 30px 4%;
+    padding-top: 0;
+  }
+  body .home-wrap .content-list .img-box,
+  body .skill-wrap .tab-cont .content-list .img-box {
+    width: 30%;
+  }
+  body .home-wrap .content-list div,
+  body .skill-wrap .tab-cont .content-list div {
+    width: 70%;
+  }
+  body .home-wrap .content-list div p,
+  body .skill-wrap .tab-cont .content-list div p {
+    padding-left: 5%;
+  }
+  body .home-wrap .content-list div p.title,
+  body .skill-wrap .tab-cont .content-list div p.title {
+    font-size: 1.2rem;
+  }
+  body .skill-wrap .tab-item li {
+    text-align: center;
+    width: 33%;
+    padding-right: 0;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+  }
+  body .other-wrap ul {
+    padding: 5% 0;
+  }
+  body .other-wrap .other-cont .cont-box p {
+    font-size: 0.8rem;
+    color: #bbb;
+    padding: 3% 10%;
+    margin-top: 1.25rem;
+  }
 }
 body.home nav ul li a.home,
 body.skill nav ul li a.skill,
 body.other nav ul li a.other,
 body.resume nav ul li a.resume {
   color: #bbb;
+}
+body.home div.m-header ul li a.home:after,
+body.skill div.m-header ul li a.skill:after,
+body.other div.m-header ul li a.other:after,
+body.resume div.m-header ul li a.resume:after {
+  content: '';
+  position: absolute;
+  bottom: -7px;
+  left: 50%;
+  margin-left: 3px;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid #fff;
 }

@@ -21,6 +21,15 @@
     </ul>
     <p><?php echo ($motto); ?></p>
 </nav>
+<div class="m-header">
+    <h1>WEB DEVELOPER</h1>
+    <ul>
+        <li><a class="home" href="<?php echo U('Home/Index/index');?>">HOME</a></li>
+        <li><a class="skill" href="<?php echo U('Home/Index/skill');?>">SKILL</a></li>
+        <li><a class="resume" href="<?php echo U('Home/Index/resume');?>">RESUME</a></li>
+        <li><a class="other" href="<?php echo U('Home/Index/other');?>">OTHER</a></li>
+    </ul>
+</div>
     <section class="resume-wrap">
         <p class="bread-nav">
             <a href="">HOME</a><a href="">RESUME</a>

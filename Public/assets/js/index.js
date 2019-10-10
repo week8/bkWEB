@@ -42,3 +42,7 @@ $('.J-item li').click(function() {
     $(this).addClass('act').siblings().removeClass('act');
     $('.J-cont').find('div').eq($(this).index()).show().siblings().hide();
 });
+
+function getTab(id) {
+    $('.J-html').show().siblings().hide();
+}
