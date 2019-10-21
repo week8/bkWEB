@@ -34,13 +34,24 @@
         <p class="bread-nav">
             <a href="">HOME</a><a href="">SKILL</a><a href="">CSS</a>
         </p>
-        <div class="content-wrap">
-            <p class="cw-title">css同时设置文字的描边和阴影</p>
-            <div class="result-show">浅喜似苍狗，深爱如长风</div>
-            <div class="code-show">
-                <p class="c-wrap">.result-show{</p>
-                <b class="c-cont">text-shadow: 3px 0px 0px #ddd, -3px 0px 0px #ddd, 0px 3px 0px #ddd, 0px -3px 0px #ddd, 0px 6px 2px #636363;</b>
-                <p class="c-wrap">}</p> 
+        <div class="public-code-wrap">
+            <div class="code-list">
+                <p class="cw-title">css同时设置文字的描边和阴影</p>
+                <div class="result-show">浅喜似苍狗，深爱如长风</div>
+                <div class="code-show">
+                    <p class="c-wrap">.result-show{</p>
+                    <b class="c-cont">text-shadow: 3px 0px 0px #ddd, -3px 0px 0px #ddd, 0px 3px 0px #ddd, 0px -3px 0px #ddd, 0px 6px 2px #636363;</b>
+                    <p class="c-wrap">}</p> 
+                </div>
+            </div>
+            <div class="code-list">
+                <p class="cw-title">css同时设置文字的描边和阴影</p>
+                <div class="result-show">浅喜似苍狗，深爱如长风</div>
+                <div class="code-show">
+                    <p class="c-wrap">.result-show{</p>
+                    <b class="c-cont">text-shadow: 3px 0px 0px #ddd, -3px 0px 0px #ddd, 0px 3px 0px #ddd, 0px -3px 0px #ddd, 0px 6px 2px #636363;</b>
+                    <p class="c-wrap">}</p> 
+                </div>
             </div>
         </div>
     </section>
